@@ -1,0 +1,9 @@
+.dscar-bg-comments {
+    background-color: var(--dsc-color-bg-comment_section);
+    padding-bottom: 5px;
+}
+
+h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

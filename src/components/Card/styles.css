@@ -1,0 +1,36 @@
+.dscar-card {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCar {
+  width: 391px;
+  height: 292px;
+}
+
+h3 {
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 320px) {
+  .imgCar {
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+    max-height: 194.46px;
+    padding-top: 10p;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+}
