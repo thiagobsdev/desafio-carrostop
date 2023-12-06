@@ -25,7 +25,8 @@
   width: 100%;
   height: 100%;
   max-width: 960px;
-  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .dscar-centralizado-ao-meio {
@@ -38,12 +39,7 @@
 
 .dscar-borderBlue {
   border: 1px solid var(--dsc-color-card-border);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
-@media (max-width: 320px) {
-  .dcar-container {
-    padding: 20px;
-    padding: 20px;
-  }
-}
+

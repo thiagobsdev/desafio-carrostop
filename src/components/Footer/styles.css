@@ -1,0 +1,38 @@
+footer {
+  background-color: var(--dsc-color-bg-header_and_bottom);
+  height: 120px;
+}
+
+.dscar-spaceArround {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+footer p {
+  color: var(--dsc-color-font-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.address {
+  font-style: italic;
+  line-height: 24px;
+  text-align: right;
+}
+
+@media (max-width: 320px) {
+  .dscar-spaceArround {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .address {
+    margin-top: 10px;
+  }
+}

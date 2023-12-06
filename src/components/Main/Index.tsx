@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <main>
       <div className="dcar-container ">
-        <div>
+        <div className="dscar-card-column">
           <h2>Venha nos visitar</h2>
           <Card />
           <Card />
