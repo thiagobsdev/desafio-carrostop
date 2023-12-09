@@ -1,5 +1,6 @@
-h2 {
+.dscar-card-column h2 {
   color: var(--dsc-color-font-primary);
+  font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -14,14 +15,12 @@ h2 {
 }
 
 @media (max-width: 320px) {
-  h2 {
-    margin-top: 0px;
-    padding-top: 0px;
+  .dscar-card-column h2 {
+    font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    
   }
 }

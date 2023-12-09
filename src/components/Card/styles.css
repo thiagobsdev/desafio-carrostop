@@ -8,39 +8,46 @@
   margin-bottom: 25px;
 }
 
-.imgCar {
+.dscar-card .imgCar {
   width: 100%;
   height: auto;
   max-width: 391px;
   max-height: 292px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-h3 {
+.dscar-card h3 {
   color: var(--dsc-color-font-primary);
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
-  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 320px) {
-  .imgCar {
+  .dscar-card .imgCar {
     width: 100%;
     height: auto;
     max-width: 260px;
     max-height: 194.46px;
-  
-    padding-left: 10px;
-    padding-right: 10px;
   }
-  h3 {
+  .dscar-card h3 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+  }
+
+  .dscar-card .imgCar {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

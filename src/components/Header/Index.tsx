@@ -5,7 +5,7 @@ export default function Header() {
     <header className="ds-header-bg">
       <div className="dcar-container">
         <div className="dscar-centralizado-ao-meio">
-          <h1>Carros Top</h1>
+          <h1>DSCarrosTop</h1>
         </div>
       </div>
     </header>

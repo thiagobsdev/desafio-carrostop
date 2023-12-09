@@ -1,21 +1,29 @@
 .ds-header-bg {
   background-color: var(--dsc-color-bg-header_and_bottom);
+  max-height: 70px;
+}
+
+.dscar-centralizado-ao-meio h1 {
   color: var(--dsc-color-font-secondary);
-  height: 70px;
-  font-family: "Poppins";
-  font-weight: 700;
+  font-family: Poppins;
   font-size: 24px;
+  font-weight: 700;
   line-height: 36px;
+  letter-spacing: 0em;
   text-align: center;
+  margin-top: 17px;
+  margin-bottom: 17px;
 }
 
 @media (max-width: 320px) {
-  h1 {
+  .dscar-centralizado-ao-meio h1 {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }

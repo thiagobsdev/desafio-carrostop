@@ -11,8 +11,14 @@ footer {
   width: 100%;
 }
 
+.dcar-container.dscar-spaceArround {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
 footer p {
   color: var(--dsc-color-font-secondary);
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -32,7 +38,7 @@ footer p {
     justify-content: center;
   }
 
-  .address {
-    margin-top: 10px;
+  .dscar-nome-footer {
+    padding-bottom: 10px;
   }
 }

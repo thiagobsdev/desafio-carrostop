@@ -39,7 +39,20 @@
 
 .dscar-borderBlue {
   border: 1px solid var(--dsc-color-card-border);
+}
+
+.dscar-card.dscar-borderBlue {
+  border-radius: 10px;
+}
+
+.dscar-borderBlue.dscar-coment {
   border-radius: 12px;
+}
+
+@media (max-width: 320px) {
+
+  
+  
 }
 
 
